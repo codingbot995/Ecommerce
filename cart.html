@@ -1,0 +1,157 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header" class="section-1">
+        <a href = "#"><img src="img/logob.jpg" class="logo"></a>
+    <div>
+        <ul class="navbar">
+            <li><a  href = "index.html">home</a></li>
+            <li><a href = "shop.html">shop</a></li>
+            <li><a  href = "Blog.html">Blog</a></li>
+            <li><a   href = "About.html">About</a></li>
+            <li><a   href = "Contact.html">Contact</a></li>
+            <li><a  class="active" href = "cart.html"><i class='bx bxs-cart-download  '></i></a></li>
+        </ul>
+    </div>
+    <div class="mobile">
+        <i id="bar" class='bx bx-menu'></i>
+    <a href = "cart.html"><i class='bx bxs-cart-download class="active" '></i></a>
+    </div>
+</section>
+<section id="page-header" class="about-header">
+
+    <h2>#Cart</h2>
+    <p class="para">Add your coupon code & SAVE upto 70%</p>
+
+   
+</section>
+
+<section id="cart">
+    <table width=100%>
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class='bx bx-x '></i></a></td>
+                <td> <img src="img/tshirt1.jpg"></td>
+                <td>cartoon astronaut T-shirt</td>
+                <td>$118.19</td>
+                <td><input type='number' value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class='bx bx-x'></i></a></td>
+                <td> <img src="img/tshirt5 (2).jpg"></td>
+                <td>cartoon astronaut T-shirt</td>
+                <td>$118.19</td>
+                <td><input type='number' value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class='bx bx-x'></i></a></td>
+                <td> <img src="img/tshirt5.jpg"></td>
+                <td>cartoon astronaut T-shirt</td>
+                <td>$118.19</td>
+                <td><input type='number' value="1"></td>
+                <td>$118.19</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="cart-add">
+    <div id="coupon">
+        <h3>Appy coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter your coupon">
+           
+        </div>
+        <button class="normal">Apply</button>
+    </div>
+    <div id="subtotal">
+        <h3>cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$118.19</strong></td>
+
+            </tr>
+        </table>
+        <button class="Proceed">Proceed To Checkout</button>
+    </div>
+</section>
+<footer>
+    <div class="col">
+        <img src="img/logob.jpg">
+    <h4>contact us </h4>
+    <p><strong>address:</strong> thika road </p>
+    <p><strong>phone:</strong>0714756164</p>
+    <p><strong>hours:</strong> 10:00 -18:00, Mon-Sat</p>
+
+    <div class="follow">
+        <h4>follow us</h4>
+        <div class="icons">
+            <i class='bx bxl-instagram-alt'></i>
+            <i class='bx bxl-facebook-circle' ></i>
+            <i class='bx bxl-whatsapp-square' ></i>
+            <i class='bx bxs-envelope' ></i>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+        <h4>about us</h4>
+        <a href="#">about us</a>
+        <a href="#">delivery information</a>
+        <a href="#">privacy policy</a>
+        <a href="#">Tearms $ conditions</a>
+        <a href="#">contact us</a>
+    </div>
+    <div class="col">
+        <h4>my account</h4>
+        <a href="#">sign in</a>
+        <a href="#">view cart</a>
+        <a href="#">my wishlist</a>
+        <a href="#">Track My order</a>
+        <a href="#">help</a>
+    </div>
+    <div class="col install">
+        <h4>Install APP</h4>
+        <P>
+            From APP store or gogoole app
+        </P>
+        <div class="row">
+            <img src="img/google.png">
+            <img src="img/playstore.png">
+        </div>
+        <p>Secured payment Gateways</p>
+        <img src="img/google.png">
+    </div>
+</footer>
+<div class="copyright">
+    <p>@ 2021, Tech2 etc -HTML CSS Ecommerce Template</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
